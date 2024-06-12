@@ -7,7 +7,6 @@ export default function Home() {
     <>
       <div className="font-Outfit ">
         <MoneyTransferHome></MoneyTransferHome>
-        <h2>Hello</h2>
       </div>
 
     </>
