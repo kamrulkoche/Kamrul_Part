@@ -9,7 +9,7 @@ const CustomSelectRecipient = () => {
             <div className="flex items-center border rounded-lg w-full p-2 font-semibold bg-[#723EEB] text-white">
                 <Image src="/images/Ellipse 1.png" alt="Bank Transfer" width={24} height={24} className="mr-2" />
                 <select
-                    className="appearance-none bg-transparent focus:outline-none w-full"
+                    className="appearance-none bg-transparent focus:outline-none w-full cursor-pointer"
                     value={selectedOption}
                     onChange={(e) => setSelectedOption(e.target.value)}
                 >

@@ -18,7 +18,7 @@ const ExchangeRateCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-8 grid gap-2 ">
+                <div className="mt-8 grid gap-2 mr-5">
                     <div className="text-gray-700 flex justify-between "><p className="flex items-center gap-3"><span><FaRegDotCircle /></span> Amount will convert</p> <p>150 USD</p></div>
                     <div className="text-gray-700 flex justify-between "><p className="flex items-center gap-3"><span><FaRegDotCircle /></span> Total Payable Amount</p> <p>153.50 USD</p></div>
                     <div className="text-gray-700 flex justify-between "><p className="flex items-center gap-3"><span><FaRegDotCircle /></span> Fees & Charges:</p> <p>+3.50 USD</p>
@@ -51,7 +51,7 @@ const ExchangeRateCard = () => {
                 </div>
                 <div className="mt-12 ">
                     <p className="text-black mb-5">You could save up to 1.5 USD</p>
-                    <button className=" bg-[#723EEB] hover:bg-[#4d27a3] duration-500 text-white py-2 px-4 rounded-2xl w-full">Send Now</button>
+                    <button className=" bg-[#723EEB] hover:bg-[#4d27a3] duration-500 text-white py-4 px-4 text-lg rounded-2xl w-full">Send Now</button>
                 </div>
             </div>
         </div>
