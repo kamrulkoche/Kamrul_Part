@@ -58,9 +58,11 @@ const MenuItems = () => {
                 </div>
             </div>
 
-            {
+
+            <div className="lg:hidden">
                 <Content open={open}></Content>
-            }
+            </div>
+
         </>
     )
 }

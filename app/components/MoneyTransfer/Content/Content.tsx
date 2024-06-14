@@ -1,5 +1,5 @@
 import { FiPlay } from "react-icons/fi";
-const Content = ({ open }:{open:boolean}) => {
+const Content = ({ open }: { open: boolean }) => {
     return (
         <div className={`${open ? "mt-[30rem] lg:mt-0" : ""} duration-1000 `} >
             <div className="flex flex-col container mx-auto px-4 lg:px-20 ">
