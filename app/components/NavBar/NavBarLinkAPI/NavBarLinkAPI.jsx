@@ -1,4 +1,5 @@
 import { MdPlayArrow } from "react-icons/md";
+
 const NavBarLinkAPI = ({ route }) => {
   return (
     <div>
@@ -7,7 +8,6 @@ const NavBarLinkAPI = ({ route }) => {
           <div className="flex items-center">
             {route.name} <MdPlayArrow className="text-xl" />
           </div>
-          
         </button>
       </li>
     </div>

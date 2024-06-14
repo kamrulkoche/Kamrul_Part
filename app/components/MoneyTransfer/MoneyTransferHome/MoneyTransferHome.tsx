@@ -9,7 +9,7 @@ const MoneyTransferHome = () => {
             <div className="container mx-auto pb-10">
                 <MenuItems></MenuItems>
                 <div className="bg-cover bg-center min-h-screen gap-6 grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center">
-                    <Content />
+                    <Content open></Content>
                     <ExchangeRateCard />
                 </div>
             </div>
